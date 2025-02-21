@@ -11,25 +11,6 @@ This project implements a Hate Speech Detection system using Machine Learning. I
 - Machine learning models like Decision Tree Classifier
 - Evaluation metrics: Accuracy, Precision, Recall
 
-🏗️ **Installation**
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/hate-speech-detection.git
-   cd hate-speech-detection
-   ```
-
-2. Create a virtual environment:
-   ```sh
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
-
-3. Install dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
-
 📊 **Dataset**
 
 The dataset used is labeled_data.csv, which contains labeled tweets classified as:
