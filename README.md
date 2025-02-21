@@ -10,7 +10,6 @@ This project implements a Hate Speech Detection system using Machine Learning. I
 - Feature extraction using TF-IDF or word embeddings
 - Machine learning models like Decision Tree Classifier
 - Evaluation metrics: Accuracy, Precision, Recall, and F1-score
-- Web application interface for testing text inputs
 
 🏗️ **Installation**
 
@@ -33,11 +32,11 @@ This project implements a Hate Speech Detection system using Machine Learning. I
 
 📊 **Dataset**
 
-The project uses publicly available hate speech datasets such as:
+The dataset used is labeled_data.csv, which contains labeled tweets classified as:
 
-- Twitter Hate Speech Dataset
-- Kaggle’s Toxic Comment Dataset
-- Stormfront Hate Speech Corpus
+- 0: Hate Speech
+- 1: Offensive Speech
+- 2: No Hate or Offensive Speech
 
 🚀 **Usage**
 
