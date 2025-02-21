@@ -7,9 +7,9 @@ This project implements a Hate Speech Detection system using Machine Learning. I
 🛠 **Features**
 
 - Preprocessing of text data (tokenization, stopword removal, stemming, etc.)
-- Feature extraction using TF-IDF or word embeddings
+- Feature extraction using CountVectorizer
 - Machine learning models like Decision Tree Classifier
-- Evaluation metrics: Accuracy, Precision, Recall, and F1-score
+- Evaluation metrics: Accuracy, Precision, Recall
 
 🏗️ **Installation**
 
@@ -50,31 +50,10 @@ The dataset used is labeled_data.csv, which contains labeled tweets classified a
    python predict.py --text "Your input text here"
    ```
 
-3. Run the web application:
-   ```sh
-   streamlit run app.py
-   ```
 
 📈 **Model Performance**
 
-📝 **Future Improvements**
+- Accuracy : 87.59%
 
-- Enhance dataset with more diverse hate speech examples
-- Experiment with transformer-based models (RoBERTa, DistilBERT)
-- Deploy as a REST API for real-time detection
 
-🤝 **Contributing**
-
-Pull requests and feature suggestions are welcome! Please open an issue to discuss any improvements.
-
-🛡 **License**
-
-This project is licensed under the MIT License.
-
-🌟 **Acknowledgments**
-
-Special thanks to NLP and machine learning communities for open-source datasets and research.
-
----
-
-💡 **Developed by Your Name**
+💡 **Developed by Vaibhav Tayal**
